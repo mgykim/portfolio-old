@@ -22,22 +22,7 @@ font-family: 'Work Sans', sans-serif;
     overflow-y: auto;
     overflow-x: hidden;
 }
-::-webkit-scrollbar { 
-    display: none;  /* Safari and Chrome */
-}
-body::-webkit-scrollbar { 
-    display: none;  /* Safari and Chrome */
-}
-.scrollable-container {
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
-    overflow-y: hidden;
-    scroll-behavior: smooth;
-}
-body {
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
-}
+
 
 .about-section{
     align-items: center;
