@@ -3,31 +3,95 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Megan Kim</title>
+    <link rel="icon" type="image/x-icon" href="Media/Logo.ico">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gidugu&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="white-border"></div>
     <a href="#home" class="nav-logo">MEGAN KIM</a>
     <div class="nav animate-on-scroll">
+        <a href="#work-section">Selected Work</a>
+        <a href="#web-dev-section">Web Dev</a>
         <a href="#design-section">Design</a>
-        <a href="#mot-graph-section">Motion Graphics</a>
         <a href="#modeling-section">3D Modeling</a>
     </div>
+    <div class="about-section">
+        <h2>hi! i'm</h2>
+        <img src="Media/Logo.png" class="logo">
+        <div class="logo-bg-animation2"></div>
+        <div class="logo-bg-animation"></div>
+        <p style="max-width: 90vw;">I'm a UX and product designer studying media and technology at NYU.</p>
+    </div>
     <div id="home" class="scrollable-container">
-        <div class="about-section">
-            <h1>hi! i'm</h1>
-            <p style="max-width: 90vw;">I'm student at New York University, studying media and technology.</p>
-            <div class="logo-container">
-                <img src="Media/Logo.png" class="logo">
-                <div class="logo-bg-animation2"></div>
-                <div class="logo-bg-animation"></div>
+            <span id="work-section" class="sections work-section">
+                <h1>SELECTED WORK</h1>
+                <br/><br/>
+                <a href="pages/dibby.html">
+                    <div class="case-study-container">
+                        <div class="case-study-top">
+                            <div class="circle-detail"></div>
+                            <div class="circle-detail"></div>
+                            <p>learn more >>></p>
+                        </div>
+                        <img src="Media/clicksters-team.png">
+                        <h3>Developed AI Chatbot to Streamline Printing Needs </h3>
+                        <p>Our team won 1st place and audience favorite at the 2023 Hack Dibner competition. We went through rounds of surveys, user interviews, ideation, prototyping, and testing to create Dibby: a friendly AI chatbot that streamlines the printing experience for all students and staff at Dibner Library.</p>
+                    </div>
+                </a>
+            </span>
+        <span id="web-dev-section" class="sections web-dev-section">
+            <h1>WEB DEV</h1>
+            <div class="wrapper">
+                <div class="card-container animate-on-scroll">
+                    <div class="video-container">
+                        <h3>NYU Tandon Motorsports</h3>
+                        <div class="emb-video-card">
+                            <iframe class="emb-video"
+                            src="https://www.youtube.com/embed/eHEVb4cnOno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <p>Created using <b>PremierePro</b> and <b>AfterEffects</b>. I made a promotional video for Tandon Motorsports, a Vertically Integrated Project at NYU. I gathered the footage, then used rotoscoping and various distortion techniques to create the special effects.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container animate-on-scroll">
+                    <div class="video-container">
+                        <h3>"Wild Geese" - Kinetic Typography</h3>
+                        <div class="emb-video-card">
+                            <iframe class="emb-video"
+                            src="https://www.youtube.com/embed/7phFWOM4iMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <p>Created using <b>Illustrator</b> and <b>AfterEffects</b>. I created a kinetic typography video for the poem "Wild Geese," by Mary Oliver and narrated by Tom Hiddleston.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+            <div class="wrapper">
+                <div class="card-container animate-on-scroll">
+                    <div class="video-container">
+                        <h3>Drink Water! - Puppet Animation</h3>
+                        <div class="emb-video-card">
+                            <iframe class="emb-video"
+                            src="https://www.youtube.com/embed/DreBNSt7PSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <p>Created using <b>Illustrator</b> and <b>AfterEffects</b>. I designed an original character in Illustrator, then transferred it over to AfterEffects. I animated her using puppet pins for the leaf hair movement.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container animate-on-scroll">
+                    <div class="video-container">
+                        <h3>Cat Cafe Logo Animation</h3>
+                        <div class="emb-video-card">
+                            <iframe class="emb-video"
+                            src="https://www.youtube.com/embed/0A200kCM20I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <p>Created using <b>Illustrator</b> and <b>AfterEffects</b>. This is a short animated logo I made for a fictional cat cafe.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </span>
         <span id="design-section" class="sections design-section">
             <h1>LOGOS</h1>
             <div class="card-container">
@@ -58,55 +122,54 @@
                     <img src="Media/des_graphic_3.png"/>
                 </div>
             </div>
+            <span id="mot-graph-section" class="sections mot-graph-section">
+                <h1>MOTION GRAPHICS</h1>
+                <div class="wrapper">
+                    <div class="card-container animate-on-scroll">
+                        <div class="video-container">
+                            <h3>NYU Tandon Motorsports</h3>
+                            <div class="emb-video-card">
+                                <iframe class="emb-video"
+                                src="https://www.youtube.com/embed/eHEVb4cnOno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <p>Created using <b>PremierePro</b> and <b>AfterEffects</b>. I made a promotional video for Tandon Motorsports, a Vertically Integrated Project at NYU. I gathered the footage, then used rotoscoping and various distortion techniques to create the special effects.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container animate-on-scroll">
+                        <div class="video-container">
+                            <h3>"Wild Geese" - Kinetic Typography</h3>
+                            <div class="emb-video-card">
+                                <iframe class="emb-video"
+                                src="https://www.youtube.com/embed/7phFWOM4iMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <p>Created using <b>Illustrator</b> and <b>AfterEffects</b>. I created a kinetic typography video for the poem "Wild Geese," by Mary Oliver and narrated by Tom Hiddleston.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="card-container animate-on-scroll">
+                        <div class="video-container">
+                            <h3>Drink Water! - Puppet Animation</h3>
+                            <div class="emb-video-card">
+                                <iframe class="emb-video"
+                                src="https://www.youtube.com/embed/DreBNSt7PSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <p>Created using <b>Illustrator</b> and <b>AfterEffects</b>. I designed an original character in Illustrator, then transferred it over to AfterEffects. I animated her using puppet pins for the leaf hair movement.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container animate-on-scroll">
+                        <div class="video-container">
+                            <h3>Cat Cafe Logo Animation</h3>
+                            <div class="emb-video-card">
+                                <iframe class="emb-video"
+                                src="https://www.youtube.com/embed/0A200kCM20I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <p>Created using <b>Illustrator</b> and <b>AfterEffects</b>. This is a short animated logo I made for a fictional cat cafe.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </span>
         </span>
-    </div>
-    <span id="mot-graph-section" class="sections mot-graph-section">
-        <h1>MOTION GRAPHICS</h1>
-        <div class="wrapper">
-            <div class="card-container animate-on-scroll">
-                <div class="video-container">
-                    <h3>NYU Tandon Motorsports</h3>
-                    <div class="emb-video-card">
-                        <iframe class="emb-video"
-                        src="https://www.youtube.com/embed/eHEVb4cnOno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <p>Created using <b>PremierePro</b> and <b>AfterEffects</b>. I made a promotional video for Tandon Motorsports, a Vertically Integrated Project at NYU. I gathered the footage, then used rotoscoping and various distortion techniques to create the special effects.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card-container animate-on-scroll">
-                <div class="video-container">
-                    <h3>"Wild Geese" - Kinetic Typography</h3>
-                    <div class="emb-video-card">
-                        <iframe class="emb-video"
-                        src="https://www.youtube.com/embed/7phFWOM4iMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <p>Created using <b>Illustrator</b> and <b>AfterEffects</b>. I created a kinetic typography video for the poem "Wild Geese," by Mary Oliver and narrated by Tom Hiddleston.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="wrapper">
-            <div class="card-container animate-on-scroll">
-                <div class="video-container">
-                    <h3>Drink Water! - Puppet Animation</h3>
-                    <div class="emb-video-card">
-                        <iframe class="emb-video"
-                        src="https://www.youtube.com/embed/DreBNSt7PSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <p>Created using <b>Illustrator</b> and <b>AfterEffects</b>. I designed an original character in Illustrator, then transferred it over to AfterEffects. I animated her using puppet pins for the leaf hair movement.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card-container animate-on-scroll">
-                <div class="video-container">
-                    <h3>Cat Cafe Logo Animation</h3>
-                    <div class="emb-video-card">
-                        <iframe class="emb-video"
-                        src="https://www.youtube.com/embed/0A200kCM20I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <p>Created using <b>Illustrator</b> and <b>AfterEffects</b>. This is a short animated logo I made for a fictional cat cafe.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </span>
     <span id="modeling-section" class="sections modeling-section">
         <h1>3D MODELING</h1>
         <div class="wrapper">
@@ -183,6 +246,7 @@
             </div>
         </div>
     </span>
+</div>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
