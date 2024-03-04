@@ -53,7 +53,7 @@ h4 {
     font-size: 20px;
     margin: 0;
 }
-p{
+p, li {
     font-family: 'Work Sans', sans-serif;
     font-size: 17px;
     font-weight: 500;

@@ -19,8 +19,8 @@ font-family: 'Work Sans', sans-serif;
 .scrollable-container{
     background-image: linear-gradient(var(--dblue), var(--blue), var(--lblue), var(--beige));
     width: 100%;
+    height: 400vh; /*makes it so that theres no stoppage when you're scrolling*/
     overflow-y: auto;
-    overflow-x: hidden;
 }
 
 
