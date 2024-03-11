@@ -74,12 +74,18 @@ img {
 }
 
 
-.case-study h1, h2, h3, h4, p, li {
+.case-study h1, h2, h3, h4, p, li, video, a {
     margin: 0px 40px;
 }
 
 .case-study h4 {
     color: var(--blue);
+}
+.case-study a {
+    color: var(--blue);
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: 20px;
 }
 
 .row {
