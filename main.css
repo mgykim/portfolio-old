@@ -6,8 +6,13 @@
     --dblue: #3F3A72;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 ::-webkit-scrollbar { 
-    display: none;  /* Safari and Chrome */
+    display: none;  
+    /* Safari and Chrome */
 }
 body::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */

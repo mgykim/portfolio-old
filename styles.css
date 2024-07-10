@@ -7,19 +7,11 @@ font-family: 'Work Sans', sans-serif;
 /*------------------------ LOGO --------------------------*/
 
 
-.animate-on-scroll {
-    opacity: 0.1;
-    transform: translateY(30%);
-    transition: opacity 0.4s ease-in, transform 0.3s ease-out;
-}
-.animate-on-scroll.visible {
-    opacity: 1;
-    transform: translateY(0%);
-}
+
 .scrollable-container{
     background-image: linear-gradient(var(--dblue), var(--blue), var(--lblue), var(--beige));
     width: 100%;
-    height: 400vh; /*makes it so that theres no stoppage when you're scrolling*/
+    height: 640vh; /*makes it so that theres no stoppage when you're scrolling*/
     overflow-y: auto;
 }
 
@@ -205,24 +197,27 @@ font-family: 'Work Sans', sans-serif;
 }
 
 
-.design-section{
+.design-section h1, h3 {
+    color: var(--black) !important;
 }
 .mot-graph-section {
-    background-image: radial-gradient(var(--lblue) 2px, transparent 0);
+    background-image: radial-gradient(var(--blue) 2px, transparent 0);
     background-size: 8px 8px;
 }
-.mot-graph-section .card-container {
+.mot-graph-section h3 {
+    color: var(--beige) !important;
 }
 .modeling-section {
     background-image: radial-gradient(var(--lblue) 2px, transparent 0);
     background-size: 8px 8px;
 }
 .modeling-section h1, h3 {
-    color: var(--black) !important;
+    color: var(--dblue) !important;
 }
 .modeling-section > p {
     color: var(--beige);
     line-height: 1.2;
+    border: solid var(--black) 10px;
 }
 
 
@@ -231,7 +226,7 @@ font-family: 'Work Sans', sans-serif;
 .card-container {
     display: flex;
     justify-content: space-evenly;
-    padding: 4vw 0 8vw 0;
+    margin: 50px 0 20px 0;
     width: 70%;
 }
 
@@ -239,7 +234,6 @@ font-family: 'Work Sans', sans-serif;
     background-color: var(--beige);
     border: solid var(--black) 10px;
     border-radius: 25px;
-    color: white;
     height: 50vh;
     width: 30%;
 }
@@ -281,11 +275,12 @@ font-family: 'Work Sans', sans-serif;
 
 .emb-video-card {
     background-color: var(--beige);
-    border: solid var(--beige) 10px;
+    border: solid var(--black) 5px;
     border-radius: 15px;
-    height: 25vw;
+    height: auto;
     margin-top: 1.5vw;
     width: 28vw;
+    padding: 10px;
 }
 .emb-video {
     height: 16vw;
@@ -380,9 +375,9 @@ font-family: 'Work Sans', sans-serif;
 
 .slideshow-card-container {
     background-color: black;
-    border: solid black 10px;
+    border: solid black 15px;
     border-radius: 15px;
-    height: 26vw;
+    height: auto;
     margin-top: 1.5vw;
     width: 28vw;
 }
