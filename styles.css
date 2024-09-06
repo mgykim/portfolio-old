@@ -124,6 +124,7 @@ font-family: 'Work Sans', sans-serif;
     border-radius: 15px;
     width: 800px;
     transition: 200ms;
+    max-height: 300px;
 }
 .case-study-container:hover {
     background: white;
@@ -172,11 +173,11 @@ font-family: 'Work Sans', sans-serif;
     display: flex;
 }
 .case-study-container h3 {
-    margin: 20px 30px;
+    margin: 20px 0px 10px 20px;
 }
 .case-study-text p {
     color: black;
-    margin: 10px 30px;
+    margin: 10px 20px;
     padding-bottom: 15px;   
 }
 
