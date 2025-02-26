@@ -251,7 +251,7 @@ font-family: 'Work Sans', sans-serif;
 .image-card {
     border-radius: 15px;
     height: 15vw;
-    width: 15vw;
+    width: 10vw;
 }
 .image-card h3 {
     margin-top: -2vw;
@@ -261,7 +261,7 @@ font-family: 'Work Sans', sans-serif;
     object-fit: cover;
     overflow: hidden;
     height: 15vw;
-    width: 15vw;
+    width: auto;
     margin-top: 1vw;
 }
 
