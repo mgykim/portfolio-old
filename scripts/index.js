@@ -1,4 +1,4 @@
-var animation = bodymovin.loadAnimation({
+var animation = lottie.loadAnimation({
     container: document.getElementById("logo-lottie-animation"),
     path: 'logo JSON.json',
     renderer: 'svg', // or 'canvas'
