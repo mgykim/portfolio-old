@@ -33,34 +33,33 @@ body {
 }
 
 h1{
-    color: var(--beige);
     font-size: 68px;
-    font-weight: 800;
-    margin: 0;
+    font-family: 'Gotens-Regular', sans-serif;
+    font-style: italic;
+    font-weight: 300;
     line-height: 1;
+    margin: 0;
 }
 h2 {
-    color: var(--black);
+    font-family: 'Gotens-Regular', sans-serif;
     font-size: 42px;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+}
+h3 { 
+    font-family: 'Baloo Thambi 2', sans-serif;
+    font-size: 26px;
     font-weight: 800;
-    margin: 0;
-}
-h3 {
-    color: var(--black);
-    font-size: 28px;
-    margin: 0;
-    font-family: 'Sneakers-Max-Oblique', sans-serif;
-}
-h4 {
-    color: var(--black);
-    font-size: 20px;
     margin: 0;
 }
 p, li {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Baloo Thambi 2', sans-serif;
     font-size: 17px;
-    font-weight: 500;
-    line-height: 1.5;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0;
 }
 a{
     text-decoration: none;
@@ -86,7 +85,9 @@ a{
     justify-content: center;
     color: var(--black);
     font-size: 35px;
-    font-weight: 800;
+    font-family: 'Gotens-Regular', sans-serif;
+    font-weight: 300;
+    font-style: italic;
     line-height: 0.8;
     margin-left: 1vw;
     position: fixed;

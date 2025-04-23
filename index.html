@@ -6,9 +6,9 @@
     <title>Megan Kim</title>
     <link rel="icon" type="image/x-icon" href="Media/Logo.ico">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='logo_animation.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='logo_animation.css'>
     <script src="https://kit.fontawesome.com/622878c676.js" crossorigin="anonymous"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,7 @@
     <!-- White border around the screen -->
     <div class="white-border"></div> 
     <!-- Navigation header bar -->
-    <a href="#home" class="nav-logo">MEGAN KIM</a>
+    <a href="#home" class="nav-logo">megan kim</a>
     <div class="nav ">
         <a href="#work-section">Work</a>
         <a href="#mot-graph-section">Motion Graphics</a>
@@ -29,18 +29,19 @@
     </div>
     <div id="home" class="about-section">
         <h2>hi! i'm</h2>
-        <div class="spacer"></div>
         <!-- Blue background animation -->
         <div class="logo-bg-animation2"></div>
         <div class="logo-bg-animation"></div>
-        <div id="logo-lottie-animation"class="logo"></div>
-        <!-- Scripts -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js" type="text/javascript"></script>
-        <script src="scripts/index.js"></script>
-        
-        <p>I've got Adobe, a cold brew, and a dream
-            <br/><br/><br/><br/> 
+        <div id="logo-lottie-animation"class="logo">
+            <!-- Scripts -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js" type="text/javascript"></script>
+            <script src="scripts/index.js"></script>
+        </div>
+        <div class="bot-half-section">
+            <p>I've got Adobe, a cold brew, and a dream
+                <br/><br/>
             /* Website made with AfterEffects/Illustrator, HTML/CSS/JS */</p>
+        </div>
     </div>
     <div class="scrollable-container">
             <span id="work-section" class="sections work-section">
@@ -48,21 +49,24 @@
                 <br/><br/><br/>
                 <div class="case-study-container">
                     <img src="Media/Dibby Media/Dibby thumbnail.png">
-                    <a href="pages/dibby.html">
-                        <div class="case-study-popup">
-                            <div class="case-study-top">
-                                <div class="circle-detail"></div>
-                                <div class="circle-detail"></div>
-                                <p>learn more</p>
-                                <i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i>
-                            </div>
-                                <div class="case-study-text">
-                                    <h3>Dibby</h3>
-                                    <p>Our team won the 1st place and audience favorite awards at the 2023 Hack Dibner competition. <br/><br/> We went through rounds of surveys, user interviews, ideation, prototyping, and testing to create Dibby: a friendly AI chatbot that streamlines the printing experience for all students and staff at Dibner Library.</p>
+                    <div class="case-study-description">
+                        <a href="pages/dibby.html">
+                            <div class="case-study-popup" style="float: right;">
+                                <div class="case-study-top" style="background-color: var(--blue);">
+                                    <div class="circle-detail"></div>
+                                    <div class="circle-detail"></div>
+                                    <p>learn more</p>
+                                    <i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i>
                                 </div>
-                        </div>
-                    </a>
-                    <br/><br/><br/>
+                                <h2>dibby</h2>
+                            </div>
+                        </a>
+                        <br/>
+                        <p>Our team won the 1st place and audience favorite awards at the 2023 Hack Dibner competition. 
+                            <br/><br/> We went through rounds of surveys, user interviews, ideation, prototyping, and testing 
+                            to create Dibby: a friendly AI chatbot that streamlines the printing experience for all students 
+                            and staff at Dibner Library.</p>
+                    </div>
                 </div>
                 <a href="pages/koreanimation.html">
                     <div class="case-study-popup">

@@ -1,36 +1,60 @@
 /*
-font-family: 'Sneakers-Max-Oblique', sans-serif;
+font-family: 'Gotens-Regular', sans-serif;
 font-family: 'Baloo Thambi 2', sans-serif;
 font-family: 'Work Sans', sans-serif;
 
 */
 @font-face {
-    font-family: "Sneakers-Max-Oblique";
-    src: url(Media/sneakers-max-300-bold-obl.otf);
+    font-family: "Gotens-Regular";
+    src: url(Media/Fonts/Gotens-Regular.otf);
 }
 
 /*---------------------------------SELECTED WORKS------------------------------------*/
+.case-study-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin: 100px;
+}
+.case-study-container img {
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+    border-bottom-left-radius: 8px;
+    margin-right: 100px;
+}
+
+.case-study-description h2 {
+    margin: 20px 10px;
+    color: var(--black);
+}
+
+.case-study-description {
+    width: 600px;
+}
 
 .case-study-popup {
-    background: var(--beige);
     border: 3px solid var(--black);
     border-radius: 15px;
-    width: 600px;
+    width: 350px;
     transition: 200ms;
-    max-height: 300px;
+    text-align: center;
+    margin: 0px 20px 10px 20px;
+    background-color: var(--lblue);
 }
 .case-study-popup:hover {
-    background: white;
+    background-color: white;
     box-shadow: 10px 10px 0px var(--black);
-    transform: translate(-5px,0);
-        -webkit-transform: translate(-5px,0);
-        -moz-transform: translate(-5px,0);
-        -o-transform: translate(-5px,0);
-        -ms-transform: translate(-5px,0);
+    color: var(--blue);
+    transform: translate(5px,0);
+        -webkit-transform: translate(0,-5px);
+        -moz-transform: translate(0,-5px);
+        -o-transform: translate(0,-5px);
+        -ms-transform: translate(0,-5px);
 }
 
 .case-study-top {
-    background-color: var(--magenta);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom: 3px solid var(--black);
@@ -40,14 +64,13 @@ font-family: 'Work Sans', sans-serif;
 .case-study-top p {
     font-size: 20px;
     font-weight: 600;
-    font-family: 'Baloo Thambi 2', sans-serif;
     margin: 3px 0 0 0;
     text-align: right;
-    width: 480px;
+    width: 240px;
 }
 
 .circle-detail:first-child{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .circle-detail{
     background-color: var(--beige);
@@ -66,24 +89,6 @@ font-family: 'Work Sans', sans-serif;
     margin-left: 15px;
 }
 
-/* case study popup text */
-
-.case-study-container img {
-    height: 300px;
-    width: auto;
-    object-fit: cover;
-    border-bottom-left-radius: 8px;
-}
-
-.case-study-container h3 {
-    margin: 10px 0px 10px 20px;
-}
-.case-study-text p {
-    color: var(--black);
-    margin: 10px 20px;
-    padding-bottom: 15px;   
-}
-
 /*---------------------------------WORK SECTION------------------------------------*/
 .sections {
     align-items: center;
@@ -98,10 +103,10 @@ font-family: 'Work Sans', sans-serif;
     background-image: radial-gradient(var(--dblue) 2px, transparent 0);
     background-size: 8px 8px;
 }
-.web-dev-section h1 {
+.web-dev-section > h1 {
     color: var(--lblue);
 }
-.web-dev-section > h3, p {
+.web-dev-section > h2, p {
     color: var(--beige);
     line-height: 1.2;
 }
@@ -110,22 +115,22 @@ font-family: 'Work Sans', sans-serif;
 }
 
 
-.design-section h1, h3 {
-    color: var(--black) !important;
+.design-section > h1, h2 {
+    color: var(--black);
 }
 .mot-graph-section {
     background-image: radial-gradient(var(--blue) 2px, transparent 0);
     background-size: 8px 8px;
 }
-.mot-graph-section h3 {
-    color: var(--beige) !important;
+.mot-graph-section h2 {
+    color: var(--beige);
 }
 .modeling-section {
     background-image: radial-gradient(var(--lblue) 2px, transparent 0);
     background-size: 8px 8px;
 }
-.modeling-section h1, h3 {
-    color: var(--dblue) !important;
+.modeling-section > h1, h2 {
+    color: var(--dblue);
 }
 .modeling-section > p {
     color: var(--beige);
@@ -156,7 +161,7 @@ font-family: 'Work Sans', sans-serif;
     height: 15vw;
     width: 10vw;
 }
-.image-card h3 {
+.image-card h2 {
     margin-top: -2vw;
 }
 .image-card img {
@@ -173,7 +178,7 @@ font-family: 'Work Sans', sans-serif;
     height: 20vw;
     width: 15vw;
 }
-.long-image-card h3 {
+.long-image-card h2 {
     margin-top: -2vw;
 }
 .long-image-card img {
@@ -200,7 +205,7 @@ font-family: 'Work Sans', sans-serif;
     width: 28vw;
     border-radius: 5px;
 }
-.video-container h3 {
+.video-container h2 {
     color: var(--beige);
 }
 .emb-video-card p {
