@@ -53,11 +53,10 @@ font-family: 'Work Sans', sans-serif;
     padding: 5px 10px;
 }
 
-.case-study-popup {
+.button-popup {
     background-color: white;
     border: 3px solid var(--black);
     border-radius: 15px;
-    box-shadow: 10px 10px 0px var(--black);
     color: var(--black);
     font-family: 'Baloo Thambi 2', sans-serif;
     font-size: 21px;
@@ -68,18 +67,18 @@ font-family: 'Work Sans', sans-serif;
     width: 300px;
 }
 
-.case-study-popup:hover {
+.button-popup:hover {
     background-color: var(--beige);
-    box-shadow: none;
+    box-shadow: 10px 10px 0px var(--black);
     color: var(--magenta);
-    transform: translate(0, 5px);
-        -webkit-transform: translate(0,5px);
-        -moz-transform: translate(0,5px);
-        -o-transform: translate(0,5px);
-        -ms-transform: translate(0,5px);
+    transform: translate(0, -5px);
+        -webkit-transform: translate(0,-5px);
+        -moz-transform: translate(0,-5px);
+        -o-transform: translate(0,-5px);
+        -ms-transform: translate(0,-5px);
 }
 
-.case-study-top {
+.button-popup-top {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-color: var(--magenta);
