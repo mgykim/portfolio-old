@@ -107,7 +107,7 @@ font-family: 'Work Sans', sans-serif;
 /*---------------------------------WORK SECTION------------------------------------*/
 .sections {
     align-items: center;
-    border-bottom: solid 4px black;
+    /*border-bottom: solid 4px black;*/
     display: flex;
     flex-direction: column;
     padding-top: 7vw;
@@ -149,8 +149,6 @@ font-family: 'Work Sans', sans-serif;
 }
 .modeling-section > p {
     color: var(--beige);
-    line-height: 1.2;
-    border: solid var(--black) 10px;
 }
 
 
@@ -165,7 +163,6 @@ font-family: 'Work Sans', sans-serif;
 
 .card {
     background-color: var(--beige);
-    border: solid var(--black) 10px;
     border-radius: 25px;
     height: 50vh;
     width: 30%;
@@ -308,7 +305,7 @@ font-family: 'Work Sans', sans-serif;
 
 .slideshow-card-container {
     background-color: black;
-    border: solid black 15px;
+    border: solid black 20px;
     border-radius: 15px;
     height: auto;
     margin-top: 1.5vw;
