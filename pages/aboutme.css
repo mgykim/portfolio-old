@@ -81,3 +81,17 @@ body {
     width: 200px;
     float: left;
 }
+/*--------------------------------------WIP PAGE--------------------------------------------*/
+
+.middle-paragraph-text{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--beige);
+    font-size: 32px;
+    font-weight: 600;
+}
+.working-meme-img{
+    height: 300px;
+}
