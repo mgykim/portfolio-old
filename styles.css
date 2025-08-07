@@ -14,19 +14,20 @@ font-family: 'Work Sans', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60vw;
+    width: 70vw;
     margin: 100px;
 }
 .case-study-container iframe {
     border-radius: 15px;
-    width: 500px;
-    height: 280px;
+    width: 35vw;
+    height: 20vw;
     flex-shrink: 0; /* <-- prevents shrinking */
 }
 
 .case-study-container img {
-    width: auto;
-    height: 400px;
+    width: 30vw;
+    height: auto;
+    max-height: 30vw;
     border-radius: 15px;
     object-fit: cover;
 }
@@ -40,17 +41,18 @@ font-family: 'Work Sans', sans-serif;
     display: flex;
     gap: 5px;
     flex-wrap: wrap;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-top: 10px;
     justify-content: center;
 }
 .tag {
     background-color: var(--black);
-    border-radius: 15px;
-    color: var(--blue);
+    border-radius: 5px;
+    color: var(--lblue);
     font-weight: 600;
+    font-size: 14px;
     line-height: 1;
-    padding: 5px 10px;
+    padding: 3px 5px;
 }
 
 .button-popup {
@@ -61,7 +63,7 @@ font-family: 'Work Sans', sans-serif;
     font-family: 'Baloo Thambi 2', sans-serif;
     font-size: 21px;
     font-weight: 600;
-    margin: 30px auto;
+    margin: 20px auto;
     text-align: center;
     transition: 200ms;
     width: 300px;
@@ -107,7 +109,7 @@ font-family: 'Work Sans', sans-serif;
 /*---------------------------------WORK SECTION------------------------------------*/
 .sections {
     align-items: center;
-    border-bottom: solid 4px black;
+    /*border-bottom: solid 4px black;*/
     display: flex;
     flex-direction: column;
     padding-top: 7vw;
@@ -149,8 +151,6 @@ font-family: 'Work Sans', sans-serif;
 }
 .modeling-section > p {
     color: var(--beige);
-    line-height: 1.2;
-    border: solid var(--black) 10px;
 }
 
 
@@ -165,7 +165,6 @@ font-family: 'Work Sans', sans-serif;
 
 .card {
     background-color: var(--beige);
-    border: solid var(--black) 10px;
     border-radius: 25px;
     height: 50vh;
     width: 30%;
@@ -308,7 +307,7 @@ font-family: 'Work Sans', sans-serif;
 
 .slideshow-card-container {
     background-color: black;
-    border: solid black 15px;
+    border: solid black 20px;
     border-radius: 15px;
     height: auto;
     margin-top: 1.5vw;
